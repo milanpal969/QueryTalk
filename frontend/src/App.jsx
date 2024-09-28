@@ -13,7 +13,7 @@ function App() {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault(); // Prevent the form from reloading the page
+    e.preventDefault(); 
     setloading(true);
 
     try {
